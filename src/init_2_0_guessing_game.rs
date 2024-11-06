@@ -1,5 +1,7 @@
-use std::{cmp::Ordering, io};
+// To run this example, type `cargo run` in the terminal at the root of the repo.
+
 use rand::Rng;
+use std::{cmp::Ordering, io};
 
 pub fn main() {
     println!("Guess the number!");

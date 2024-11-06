@@ -8,10 +8,10 @@ mod init_3_2_data_types;
 mod init_3_3_functions;
 mod init_3_4_comments;
 mod init_3_5_control_flow;
-mod init_4_1_ownership;
 
+mod init_4_1_ownership;
+mod init_4_3_the_slice_type;
 fn main() {
-    
     let mut program_code = String::new();
 
     println!("Welcome to the Rust programming language!");
@@ -23,10 +23,8 @@ fn main() {
         .read_line(&mut program_code)
         .expect("Failed to read line");
 
-
     match program_code.trim() {
         "1" => init_2_0_guessing_game::main(),
         _ => println!("Invalid input"),
     }
-
 }

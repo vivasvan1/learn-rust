@@ -31,8 +31,8 @@ fn main() {
 
     s.clear(); // this empties the String, making it equal to ""
 
-    // word still has the value 5 here, but there's no more string that
-    // we could meaningfully use the value 5 with. word is now totally invalid!
+    // word still has the length 5 here, but there's no more string that
+    // we could meaningfully use the length 5 with. word is now totally invalid!
 
     // CODE 2 - String Slices
 

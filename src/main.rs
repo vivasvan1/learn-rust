@@ -11,6 +11,15 @@ mod init_3_5_control_flow;
 
 mod init_4_1_ownership;
 mod init_4_3_the_slice_type;
+
+mod init_5_1_struct_data_type;
+mod init_5_2_a_program_using_structs;
+mod init_5_3_method_syntax;
+
+mod init_6_1_enum;
+mod init_6_2_match_control_flow;
+mod init_6_3_let_if_control_flow;
+
 fn main() {
     let mut program_code = String::new();
 

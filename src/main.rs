@@ -20,6 +20,20 @@ mod init_6_1_enum;
 mod init_6_2_match_control_flow;
 mod init_6_3_let_if_control_flow;
 
+mod init_8_1_common_collections_vectors;
+mod init_8_2_storing_string_in_utf_8;
+mod init_8_3_hash_maps;
+mod init_8_4_exercise;
+
+
+mod init_9_1_panicing;
+mod init_9_2_recoverable_errors;
+mod init_9_3_to_panic_or_not_to_panic;
+
+mod init_10_0_generics_intro;
+
+
+
 fn main() {
     let mut program_code = String::new();
 

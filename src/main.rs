@@ -31,7 +31,7 @@ mod init_9_2_recoverable_errors;
 mod init_9_3_to_panic_or_not_to_panic;
 
 mod init_10_0_generics_intro;
-
+mod init_10_1_generics;
 
 
 fn main() {
